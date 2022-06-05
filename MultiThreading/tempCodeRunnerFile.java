@@ -1,0 +1,2 @@
+while (flag != false)
+            wait();
