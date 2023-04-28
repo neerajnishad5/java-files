@@ -12,11 +12,8 @@ public class OOPs {
         }
 
         public boolean isSquare() {
-            if (length == breadth)
-                return true;
-
-            return false;
-
+            if (length == breadth) return true; 
+            return false; 
         }
     }
 
@@ -25,11 +22,11 @@ public class OOPs {
         Rectangle a = new Rectangle();
         a.length = 100;
         a.breadth = 100;
+        
         System.out.println("Area : " + a.area());
         System.out.println("Perimeter : " + a.perimeter());
-        if (a.isSquare() == true)
-            System.out.println("It's a Square");
-        else
-            System.out.println("Not a Square");
+        
+        if (a.isSquare() == true) System.out.println("It's a Square");
+        else System.out.println("Not a Square");
     }
 }
